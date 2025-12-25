@@ -84,3 +84,8 @@ Rather than forcing a complex model, the project highlights the importance of:
 - Python (Pandas, Seaborn, Matplotlib, Scikit-learn, pyedautils, holidays, number_parser)
 - Jupyter Notebooks
 - Power BI
+
+## Conclusion
+The main value of this project is not the model performance or the automated data cleaning pipeline, but the data thinking process: working with messy real-world data, automating preprocessing, being honest about model limitations caused by missing external factors, and demonstrating critical thinking by approaching the problem from a business perspective.
+
+Rather than building a generic solution, this project focuses on creating an analysis and workflow that reflects what a company would actually need when dealing with imperfect data and complex real-world problems.
