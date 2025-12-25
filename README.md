@@ -2,9 +2,9 @@
 End-to-end analysis of coffee shop sales including data cleaning, automated preprocessing pipeline, exploratory analysis, and a baseline machine learning model.
 
 ## Project motivation
-Real-World datasets are rearley clean.
-Thats why this project focuses on preprocesing and cleaning a dataset by handling missing values, inconsistencies, and wrong formats before trying to do any statistic analysis or any modeling. 
-The goal is not onaly prediction, but to think and take desitions in a bussisnes thinking context to undesrtand and do what the company would really need.
+Real-World datasets are rarely clean.
+That's why this project focuses on preprocessing and cleaning a dataset by handling missing values, inconsistencies, and wrong formats before trying to do any statistic analysis or any modeling. 
+The goal is not only prediction, but to think and take decisions in a business thinking context to understand and do what the company would actually really need.
 
 ## About the Dataset
 - Cafe sales data
@@ -49,14 +49,38 @@ cafe-sales-analysis/
    - Preserve data integrity over data quantity
      
 2. **Automated Pipeline**
-   - Reusable, customisable y scalable cleaning and preprocesing logic
+   - Reusable, customizable y scalable cleaning and preprocessing logic
 
 3. **Exploratory statistical Analysis**
    - Sales patterns by location, time, product, weekday and station of the year (Winter, Spring, Summer and Fall)
    - Most requested product
 
 4. **ML Model**
-   - Transformed the data that we arlready obtained by cleaning it into data that is useful to build, train and test a ML model
+   - Transformed the data that we already obtained by cleaning it into data that is useful to build, train and test a ML model
    - Evaluation of the model by seeing metrics like R² and RMSE
 
-## Results and Limitations
+## Results
+- Dataset cleaned and useful to work with
+- Functional, scalable and customizable preprocessing and cleaning data pipeline
+- Understandable exploratory statistical analysis by using dashboards in Power BI
+- ML model
+
+## Limitations
+- The pipeline works if the dataset has a very similar structure of the dataset that this project is working with, otherwise the pipeline code must be customized
+- The predictive ML model showed limited performance
+- R² score was close to 0% and RMSE was close to the baseline mean, indicating underfitting
+- This suggests that sales behavior is influenced by external factors not present in the dataset
+
+Rather than forcing a complex model, the project highlights the importance of:
+- Feature relevance
+- Data limitations
+- Honest model evaluation
+
+## Future Improvements
+- Incorporate external data (weather, promotions, holidays)
+- Test non-linear and probabilistic models
+
+## Tools & Technologies used
+- Python (Pandas, Seaborn, Matplotlib, Scikit-learn, pyedautils, holidays, number_parser)
+- Jupyter Notebooks
+- Power BI
