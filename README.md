@@ -12,7 +12,8 @@ The goal is not onaly prediction, but to think and take desitions in a bussisnes
 - Data was intentionally kept close to the original quality form to simulate the real-world needs
 
 ## Project Structure
-cafe-sales-analysis/
+cafe-sales-analysis/ 
+
 ├── data/
 │ ├── raw/ # Original dataset
 │ └── processed/ # Cleaned dataset
