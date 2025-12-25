@@ -15,17 +15,29 @@ The goal is not onaly prediction, but to think and take desitions in a bussisnes
 cafe-sales-analysis/ 
 
 ├── data/
+
 │ ├── raw/ # Original dataset
+
 │ └── processed/ # Cleaned dataset
+
 │
+
 ├── notebooks/
+
 │ ├── 01_data_cleaning.ipynb
+
 │ ├── 02_pipeline.ipynb
+
 │ └── 03_predictive_modeling_sales_analysis.ipynb
+
 │
+
 ├── power_bi/
+
 │ └── screenshots/
+
 │
+
 └── README.md
 
 ## Methodology
